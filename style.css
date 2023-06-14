@@ -1,0 +1,61 @@
+html {     /* anything in here applies to everything */
+    background-color: rgb(221, 192, 149); /* rgb(50, 50, 236) for blue */
+}
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color:lavenderblush; /* #db9915 for orange*/
+    width: 50vw;
+    height: auto;
+    /* text-align:center centers the font --> 600 px */
+    margin: auto;
+    border: 15px solid ;
+    border-color: rgb(107, 72, 19);
+
+    padding: 20px 20px 20px 20px;
+
+
+}
+h2 {
+    background-color:rgb(221, 192, 149);
+    text-align:center;
+
+}
+
+img {
+    /* display: none; */
+    /* still there just not visible */
+    display: block;
+    width: 30vw;
+    height: 30vw;
+    margin: 20px auto; /* auto is auto */
+    padding:20px 20px 20px 20px;
+    background-color: rgb(107, 72, 19);
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0;
+    border: 10px dotted black;
+    font-size:70px;
+    background-color:rgb(221, 192, 149);
+    
+    text-align:center;
+    /* this font family overrides the font family in html */
+}
+p, li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* display: inline; makes smoosh */
+    font-size: 24 px;
+    line-height:2;
+    letter-spacing:1px;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+
+  #time {
+    font-size: 30px; /* Adjust the font size as desired */
+  }
